@@ -1,12 +1,21 @@
+.container-body{
+    box-shadow: black 1px 2px 5px;
+    height: 650px;
+}
 
-/* 
+.task-list{
+    color: black;
+    font-weight: bold;
+}
+.task-list:hover i{
+    color: red;
+    transition: ease-in 0.2s;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+.icon{
+    color: aliceblue;
+}
+.box-title{
+    box-shadow: 1px 4px 6px white;
+    border-radius: 10px;
+}
